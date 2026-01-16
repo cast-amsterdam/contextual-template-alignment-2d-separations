@@ -1,9 +1,9 @@
 # contextual-template-alignment-2d-separations
-Overview
+## Overview
 
 The MoveTemplate function is the primary entry point of this repository. It performs automated template alignment by adjusting template nodes based on corresponding peak locations between two datasets. Users are expected to provide all required inputs directly at the beginning of the script, as indicated within the file.
 
-Prerequisites
+## Prerequisites
 
 To successfully run MoveTemplate, the following inputs must be provided:
 
@@ -22,21 +22,21 @@ Y-coordinates of existing template nodes
 Template box identifiers
 (temp_names): names or labels associated with each template region.
 
-User-defined settings
+## User-defined settings
 
 Weight parameters (suggested values: [1, 100, 0.1, 0.0001])
 
 Normalization values corresponding to the upper bounds of each dimension.
 
-Important Note
+## Important Note
 
 This implementation does not include peak tracking or peak matching between the two sets of apexes. The correspondence between peaks in o and a must be established externally by the user and supplied as input.
 
-Execution and Output
+## Execution and Output
 
 Once all prerequisites are satisfied, the MoveTemplate script can be executed. Successful execution results in a newly aligned template, returned as NewTemplate.
 
-Supporting Functions
+## Supporting Functions
 
 The following auxiliary functions are required for the correct operation of MoveTemplate and must be accessible in the same directory:
 
