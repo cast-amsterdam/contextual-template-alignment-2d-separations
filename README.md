@@ -1,4 +1,14 @@
 # contextual-template-alignment-2d-separations
+This repository contains the Matlab code accompanying the work entitled “Contextual automated template alignment for 2D group type separations with univariate detection” by Nino B. L. Milani, Ferry de Kruijff, Alan R. Garcia Cicourel, Rob Edam, Tijmen S. Bos, and Bob W. J. Pirok.
+
+The methodology and implementation presented here were developed within the Analytical Chemistry Group at the Van ’t Hoff Institute for Molecular Sciences, University of Amsterdam, in collaboration with the Centre for Analytical Sciences Amsterdam (CASA) and Shell Global Solutions International B.V. The code provides a computational framework for contextual automated alignment of two-dimensional separation templates using univariate detection, as described in the associated publication.
+
+This repository is intended to support transparency, reproducibility, and further methodological development by providing access to the core algorithms used in the study.
+
+Corresponding author:
+Bob W. J. Pirok
+E-mail: B.W.J.Pirok@uva.nl
+
 ## Overview
 
 The MoveTemplate function is the primary entry point of this repository. It performs automated template alignment by adjusting template nodes based on corresponding peak locations between two datasets. Users are expected to provide all required inputs directly at the beginning of the script, as indicated within the file.
